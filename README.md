@@ -1,9 +1,12 @@
 # Credit-Card-Fraud-Detection
 
 In this project we have created a credit card fraud detection system, and find out wheater a person will pay his/her credit card bill or not. 
-The dataset was taken from : https://www.kaggle.com/mishra5001/credit-card. The prediction are done on few columns after we drop the unnessesary columns. Sanity check was performed for columns like DAYS_BIRTH, DAYS_ID_PUBLISH, DAYS_EMPLOYED by converting the negative values to positive values. 
+The dataset was taken from : https://www.kaggle.com/mishra5001/credit-card. 
+
+The prediction are done on few columns after we drop the unnessesary columns. Sanity check was performed for columns like DAYS_BIRTH, DAYS_ID_PUBLISH, DAYS_EMPLOYED by converting the negative values to positive values. 
 
 ![image](https://user-images.githubusercontent.com/49121645/210013916-a1b25a25-7caf-4475-8d78-9b1ece1098d4.png)
+
 The distribution of target values were visualized by calculating the percentage of non-defaulter(92%) and defaulters(8%) and it was observed that there was an imbalance in the dataset. This imbalance was handled by implementing Label encoder pre-processing package of sklearn.
 All the graph plots were done to figure out the correlation between columns. 
 
